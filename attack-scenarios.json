@@ -1,0 +1,56 @@
+{
+  "scenarios": [
+    {
+      "techniqueId": "T1055",
+      "name": "Process Injection",
+      "description": "Tests the ability to inject code into legitimate processes to evade process-based defenses and elevate access. This technique is commonly used by malware to hide malicious activity within trusted processes.",
+      "fullDescription": "Process injection is a method of executing arbitrary code in the address space of a separate live process. Running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges.",
+      "tactic": "Defense Evasion",
+      "severity": "Medium",
+      "platform": "Windows, Linux",
+      "command": "--technique T1055 --target notepad.exe",
+      "fullCommand": "./edr-tester --technique T1055 --target notepad.exe --method classic --verbose --timeout 30",
+      "estimatedDuration": "2-5s",
+      "category": "Defense Evasion"
+    },
+    {
+      "techniqueId": "T1027",
+      "name": "Obfuscated Files or Information",
+      "description": "Tests detection of obfuscated malicious content designed to hide the true intent and evade static analysis. Includes various encoding, encryption, and packing techniques.",
+      "fullDescription": "Adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit.",
+      "tactic": "Defense Evasion",
+      "severity": "High",
+      "platform": "Windows, Linux",
+      "command": "--technique T1027 --method base64",
+      "fullCommand": "./edr-tester --technique T1027 --method base64 --payload test.exe --verbose",
+      "estimatedDuration": "1-3s",
+      "category": "Defense Evasion"
+    },
+    {
+      "techniqueId": "T1218",
+      "name": "System Binary Proxy Execution",
+      "description": "Tests the use of legitimate system binaries to proxy execution of malicious code. This technique leverages trusted applications to bypass application controls.",
+      "fullDescription": "Adversaries may bypass process and/or signature-based defenses by proxying execution of malicious content with signed binaries.",
+      "tactic": "Defense Evasion",
+      "severity": "Medium",
+      "platform": "Windows, Linux",
+      "command": "--technique T1218 --binary regsvr32",
+      "fullCommand": "./edr-tester --technique T1218 --binary regsvr32 --payload malicious.dll --verbose",
+      "estimatedDuration": "3-7s",
+      "category": "Defense Evasion"
+    },
+    {
+      "techniqueId": "T1003",
+      "name": "OS Credential Dumping",
+      "description": "Tests the ability to detect credential dumping attempts from various OS sources including LSASS, SAM database, and memory structures commonly targeted by attackers.",
+      "fullDescription": "Adversaries may attempt to dump credentials to obtain account login and credential material, normally in the form of a hash or a clear text password, from the operating system and software.",
+      "tactic": "Credential Access",
+      "severity": "High",
+      "platform": "Windows, Linux",
+      "command": "--technique T1003 --method lsass",
+      "fullCommand": "./edr-tester --technique T1003 --method lsass --dump-type memory --verbose",
+      "estimatedDuration": "5-10s",
+      "category": "Credential Access"
+    }
+  ]
+}
