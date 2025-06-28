@@ -9,7 +9,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1095",
-      "fullCommand": "./snellen run T1095 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1095 --dry-run",
       "estimatedDuration": "3-8s",
       "category": "Command and Control"
     },
@@ -22,7 +22,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1105",
-      "fullCommand": "./snellen run T1105 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1105 --dry-run",
       "estimatedDuration": "5-15s",
       "category": "Command and Control"
     },
@@ -35,7 +35,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run \"Possible C2 via dnscat2\"",
-      "fullCommand": "./snellen run \"Possible C2 via dnscat2\" --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run \"Possible C2 via dnscat2\" --dry-run",
       "estimatedDuration": "5-12s",
       "category": "Command and Control"
     },
@@ -48,7 +48,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1003.001",
-      "fullCommand": "./snellen run T1003.001 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1003.001 --dry-run",
       "estimatedDuration": "3-10s",
       "category": "Credential Access"
     },
@@ -61,7 +61,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1056.001",
-      "fullCommand": "./snellen run T1056.001 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1056.001 --dry-run",
       "estimatedDuration": "2-8s",
       "category": "Credential Access"
     },
@@ -74,7 +74,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1562.002",
-      "fullCommand": "./snellen run T1562.002 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1562.002 --dry-run",
       "estimatedDuration": "1-3s",
       "category": "Defense Evasion"
     },
@@ -87,7 +87,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1070.003",
-      "fullCommand": "./snellen run T1070.003 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1070.003 --dry-run",
       "estimatedDuration": "1-2s",
       "category": "Defense Evasion"
     },
@@ -100,7 +100,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1574.007",
-      "fullCommand": "./snellen run T1574.007 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1574.007 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Defense Evasion"
     },
@@ -113,7 +113,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1027",
-      "fullCommand": "./snellen run T1027 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1027 --dry-run",
       "estimatedDuration": "3-8s",
       "category": "Defense Evasion"
     },
@@ -126,7 +126,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1055",
-      "fullCommand": "./snellen run T1055 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1055 --dry-run",
       "estimatedDuration": "5-12s",
       "category": "Defense Evasion"
     },
@@ -139,7 +139,7 @@
       "severity": "Low",
       "platform": "Linux",
       "command": "run T1082",
-      "fullCommand": "./snellen run T1082 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1082 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Discovery"
     },
@@ -152,7 +152,7 @@
       "severity": "Low",
       "platform": "Linux",
       "command": "run T1016",
-      "fullCommand": "./snellen run T1016 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1016 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Discovery"
     },
@@ -165,7 +165,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1046",
-      "fullCommand": "./snellen run T1046 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1046 --dry-run",
       "estimatedDuration": "5-15s",
       "category": "Discovery"
     },
@@ -178,7 +178,7 @@
       "severity": "Low",
       "platform": "Linux",
       "command": "run T1049",
-      "fullCommand": "./snellen run T1049 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1049 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Discovery"
     },
@@ -191,7 +191,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run \"DNS reconnaissance or enumeration via DNSRecon\"",
-      "fullCommand": "./snellen run \"DNS reconnaissance or enumeration via DNSRecon\" --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run \"DNS reconnaissance or enumeration via DNSRecon\" --dry-run",
       "estimatedDuration": "3-8s",
       "category": "Discovery"
     },
@@ -204,7 +204,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1059.004",
-      "fullCommand": "./snellen run T1059.004 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1059.004 --dry-run",
       "estimatedDuration": "1-3s",
       "category": "Execution"
     },
@@ -217,7 +217,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1059.006",
-      "fullCommand": "./snellen run T1059.006 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1059.006 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Execution"
     },
@@ -230,7 +230,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run \"Advanced Command and Scripting Interpreter\"",
-      "fullCommand": "./snellen run \"Advanced Command and Scripting Interpreter\" --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run \"Advanced Command and Scripting Interpreter\" --dry-run",
       "estimatedDuration": "3-8s",
       "category": "Execution"
     },
@@ -243,7 +243,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1048",
-      "fullCommand": "./snellen run T1048 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1048 --dry-run",
       "estimatedDuration": "5-12s",
       "category": "Exfiltration"
     },
@@ -256,7 +256,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1021.004",
-      "fullCommand": "./snellen run T1021.004 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1021.004 --dry-run",
       "estimatedDuration": "3-8s",
       "category": "Lateral Movement"
     },
@@ -269,7 +269,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1547.001",
-      "fullCommand": "./snellen run T1547.001 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1547.001 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Persistence"
     },
@@ -282,7 +282,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1547.002",
-      "fullCommand": "./snellen run T1547.002 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1547.002 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Persistence"
     },
@@ -295,7 +295,7 @@
       "severity": "Medium",
       "platform": "Linux",
       "command": "run T1053.003",
-      "fullCommand": "./snellen run T1053.003 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1053.003 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Persistence"
     },
@@ -308,7 +308,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1543",
-      "fullCommand": "./snellen run T1543 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1543 --dry-run",
       "estimatedDuration": "3-8s",
       "category": "Persistence"
     },
@@ -321,7 +321,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1548.003",
-      "fullCommand": "./snellen run T1548.003 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1548.003 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Privilege Escalation"
     },
@@ -334,7 +334,7 @@
       "severity": "High",
       "platform": "Linux",
       "command": "run T1548.001",
-      "fullCommand": "./snellen run T1548.001 --dry-run",
+      "fullCommand": "./snellen-0.2.1-x86_64 run T1548.001 --dry-run",
       "estimatedDuration": "2-5s",
       "category": "Privilege Escalation"
     }
