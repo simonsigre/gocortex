@@ -6,7 +6,7 @@
       "description": "Tests the ability to inject code into legitimate processes to evade process-based defenses and elevate access. This technique is commonly used by malware to hide malicious activity within trusted processes.",
       "fullDescription": "Process injection is a method of executing arbitrary code in the address space of a separate live process. Running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges.",
       "tactic": "Defense Evasion",
-      "severity": "Medium",
+      "severity": "High",
       "platform": "Windows, Linux",
       "command": "--technique T1055 --target notepad.exe",
       "fullCommand": "./edr-tester --technique T1055 --target notepad.exe --method classic --verbose --timeout 30",
